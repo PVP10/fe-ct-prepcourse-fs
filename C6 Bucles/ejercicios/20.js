@@ -6,10 +6,11 @@ function sumarHastaNConBreak(n) {
    var resultado=0;
    for (var i=1; i<=n; i++){
       resultado= resultado + i;
-      if (resultado>100);
+      if (resultado>100){
       break;
    }
+
+}
 return resultado;
 }
-
 module.exports = sumarHastaNConBreak;

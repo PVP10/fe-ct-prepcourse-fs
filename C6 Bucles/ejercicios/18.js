@@ -5,7 +5,9 @@ function productoEntreNúmeros(a, b) {
   var resultado= 1
   for (var i =a; i  <= b; i++) {
    resultado= resultado*i;
-    
+    if (resultado===-0){
+      return 0;
+    }
   }
   return resultado;
 }
